@@ -86,14 +86,25 @@ CodePen: https://codepen.io/itsonlyjose/pen/KKgVyOd
     37. Walk me through Lambda's git flow. 
         37a. 
             1. Fork Lambda repo 
-            2. Clone the forked copy
-            3. 
+            2. Clone the forked copy to specified directory
+            3. CD into the cloned repo and checkout a branch named firstName-lastName
+            4. Once you've added and committed all changes. Push your changes to YOUR github repo 
+                4a. git add . 
+                4b. git commit -m "Message"
+                4c. git push -u origin branch-name
+            5. Once changes have been committed you will create a Pull request BUT you must make sure of TWO things
+                5a. The BASE REPO SHOULD BE YOUR FORKED COPY AND NOT SAY LAMBDA 
+                5b. DO NOT MERGE YOUR OWN PULL REQUEST 
 
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        1a. An inline element (like span) is used for small subsections of text 
+        b. block elements are containers and are used to affect multiple elements at once 
     2. What happens when an element is positioned absolutely? 
+        2a. The element will ignore the rest of the flow of the CSS i.e it does whatever it wants
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        3a.
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
